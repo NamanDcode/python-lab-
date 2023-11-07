@@ -1,0 +1,7 @@
+area = int(input("Enter the area of the rectangle: "))
+binary_representation = bin(area)
+octal_representation = oct(area)
+hexadecimal_representation = hex(area)
+print("Binary representation: " + binary_representation)
+print("Octal representation: " + octal_representation)
+print("Hexadecimal representation: " + hexadecimal_representation)

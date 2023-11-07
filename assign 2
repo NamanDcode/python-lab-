@@ -1,0 +1,8 @@
+import math
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+
+diagonal = math.sqrt(length**2 + width**2)
+
+print("Diagonal of the rectangle:", diagonal)
